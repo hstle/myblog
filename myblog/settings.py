@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'events.apps.EventsConfig',
+    'blog.apps.BlogConfig',
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -127,4 +128,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = BASE_DIR / 'media'
-MEDIA_URL = '/hihi/'
+MEDIA_URL = '/supermedia/'
+
